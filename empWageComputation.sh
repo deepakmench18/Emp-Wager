@@ -18,6 +18,7 @@ do
                         empHr=0
                                 ;;
                 esac
+
     ((numWorkingDays++))
       hrcheck=$(($hrcheck+$empHr))
       salary=$(($empHr*$empRatePerHr))
@@ -25,4 +26,4 @@ do
 
 done
 echo "Total salay ="$totalSalary
-echo "Emlpoyee working days = $numWorkingDays  & hours = $hrcheck "
+echo "Emlpoyee working days = $numWorkingDays  &  hours = $hrcheck "
